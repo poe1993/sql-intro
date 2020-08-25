@@ -1,10 +1,10 @@
 CREATE TABLE "Employees" (
-CompanyDatabase(# FullName TEXT NOT NULL,
-CompanyDatabase(# Salary INT,
-CompanyDatabase(# JobPosition TEXT,
-CompanyDatabase(# PhoneExtension PHONE NUMBER,
-CompanyDatabase(# IsPartTime BOOL,
-CompanyDatabase(# );
+FullName TEXT NOT NULL,
+Salary INT,
+JobPosition TEXT,
+PhoneExtension TEXT,
+IsPartTime  BOOL,
+);
 
 
 INSERT INTO "Employees"("fullname","salary","jobposition","phoneextension","isparttime") 
