@@ -1,9 +1,9 @@
 CREATE TABLE "Employees" (
-FullName TEXT NOT NULL,
-Salary INT,
-JobPosition TEXT,
-PhoneExtension TEXT,
-IsPartTime  BOOL,
+"FullName" TEXT NOT NULL,
+"Salary" INT,
+"JobPosition" TEXT,
+"PhoneExtension" TEXT,
+"IsPartTime"  BOOL,
 );
 
 
@@ -40,7 +40,7 @@ INSERT INTO "Employees"("fullname","salary","jobposition","phoneextension","ispa
 
  6.ALTER TABLE "Employees" ADD COLUMN "ParkingSpot" VARCHAR(10);
 
-SQL-JOIN HOMEWORK:
+SQL-JOIN HOMEWORK :
  
 CREATE TABLE "Departments" (
  "Id" SERIAL PRIMARY KEY,
