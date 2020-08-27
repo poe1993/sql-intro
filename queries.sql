@@ -98,10 +98,10 @@ INSERT INTO "Orders" ("OrderNumber","DatePlaced","Email")
 VALUES ('X529','2020-01-01 16:55:00','person@exmaple.com');
 2.
 INSERT INTO "ProductOrders" ("OrderId","ProductId","OrderQuantity")
-VALUES (‘1’,‘1’,3);
+VALUES ('1','1',3);
 3.
 INSERT INTO "ProductOrders" ("OrderId","ProductId","OrderQuantity")
-VALUES (‘1’,‘2’, 2);
+VALUES ('1','2', 2);
 4.
 SELECT "FullName" FROM "Employees" WHERE "DepartmentId" = '1';
 5.
